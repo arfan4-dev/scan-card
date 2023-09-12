@@ -1,0 +1,64 @@
+/* YourComponent.module.css */
+.container {
+    /* Set the width and height to match your background image dimensions */
+    width: 800px;
+    height: 600px;
+    position: relative; /* Position relative for absolute positioning of child elements */
+  }
+  
+  .background {
+    /* Set the background image URL and size */
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .imageContainer {
+    /* Position this div relative to the container */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style the first and second images */
+  .image:nth-child(1),
+  .image:nth-child(2) {
+    /* Position them at the top left */
+    position: absolute;
+    top: 20px; /* Adjust the top positioning as needed */
+    left: 20px; /* Adjust the left positioning as needed */
+    width: 150px; /* Adjust size as needed */
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  /* Style the third image (centered) */
+  .imageCenter {
+    /* Center the image */
+    width: 200px; /* Adjust size as needed */
+    height: 200px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the image in both directions */
+  }
+  
+  /* Style the fourth image */
+  .image:nth-child(4) {
+    /* Position it at the top right */
+    position: absolute;
+    top: 20px; /* Adjust the top positioning as needed */
+    right: 20px; /* Adjust the right positioning as needed */
+    width: 150px; /* Adjust size as needed */
+    height: 150px;
+    object-fit: cover;
+  }
+  

@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    margin-top: 2px;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    /* color: white; */
+}
+
+.cardWrapper{
+    height: 100%;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;        
+    margin-top: 120px;
+       
+    
+}
+.cardBody{
+   
+}
+#imgcard1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+}
+
+#imgcard2{
+    position: absolute;
+        top: 0;
+    left: 220px;
+
+}
+#imgcard3{
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    right: 50px;
+}
+
+#imgcard4{
+    position: absolute;
+    top: 520px;
+    left: 10px;
+}
+.para{
+    position: absolute;
+    letter-spacing: 3px;
+    top: 520px;
+    left: 130px;
+    color: aliceblue;
+    font-size: 10px;
+}
+
+#imgcard5{
+    position: absolute;
+    top: 515px;
+    left: 280px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) and (max-height: 572px)  { 
+.card{
+    margin-top: 120px;
+    margin-left: 150px;
+}
+    .cardWrapper{
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+    }
+#imgcard{
+    width: 200px;
+    height: 400px;
+    position: relative;
+    left: 0;
+    top: 0;
+    
+
+}
+#imgcard1{
+    width: 110px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+}
+
+#imgcard2{
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    top: 0;
+    left: 145px;
+
+}
+#imgcard3{
+
+    position: absolute;
+    top: 155px;
+    left: 40px;
+    right: 50px;
+    width: 120px;
+    height: 120px;
+}
+
+#imgcard4{
+    position: absolute;
+    top: 375px;
+    left: 10px;
+
+}
+.para{
+    position: absolute;
+    letter-spacing: 3px;
+    top: 380px;
+    left: 80px;
+    color: aliceblue;
+    font-size: 7px;
+}
+
+#imgcard5{
+    position: absolute;
+    top: 375px;
+    left: 180px;
+}
+} 
+
+@media (max-width: 425px) and (max-height: 572px)  { 
+    .cardWrapper{
+        height: 100%;
+        /* width: 100%; */
+        /* margin-top:100px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        margin-top: 80px;
+        /* margin-right: 180px; */
+    }
+#imgcard{
+    width: 230px;
+    height: 400px;
+    position: relative;
+    left: 0;
+    top: 0;
+    
+}
+#imgcard1{
+    width: 110px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+}
+
+#imgcard2{
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    top: 0;
+    left: 145px;
+
+}
+#imgcard3{
+
+    position: absolute;
+    top: 155px;
+    left: 50px;
+    right: 50px;
+    width: 120px;
+    height: 120px;
+}
+
+#imgcard4{
+    position: absolute;
+    top: 375px;
+    left: 10px;
+
+}
+.para{
+    position: absolute;
+    letter-spacing: 3px;
+    top: 380px;
+    left: 80px;
+    color: aliceblue;
+    font-size: 7px;
+}
+
+#imgcard5{
+    position: absolute;
+    top: 375px;
+    left: 180px;
+}
+   
+    
+} 
+
+@media (max-width: 375px) and (max-height: 572px)  { 
+ 
+    .cardWrapper{
+        height: 100%;
+        width: 100%;
+        /* margin-top:100px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        margin-top: 80px;
+        margin-right: 100px;
+    }
+#imgcard{
+    width: 280px;
+    height: 400px;
+    position: relative;
+    left: 0;
+    top: 0;
+    
+}
+#imgcard1{
+    width: 155px;
+    height: 10px;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    
+}
+
+#imgcard2{
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    top: 0;
+    left: 220px;
+
+}
+#imgcard3{
+
+    position: absolute;
+    top: 140px;
+    left: 60px;
+    right: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+#imgcard4{
+    position: absolute;
+    top: 375px;
+    left: 10px;
+
+}
+.para{
+    position: absolute;
+    letter-spacing: 3px;
+    top: 380px;
+    left: 120px;
+    color: aliceblue;
+    font-size: 7px;
+}
+
+#imgcard5{
+    position: absolute;
+    top: 375px;
+    left: 250px;
+}
+   
+} 
+
+
+
+
+@media (max-width: 320px) and (max-height: 572px)  { 
+   
+    .cardWrapper{
+        height: 100%;
+        width: 100%;
+        /* margin-top:100px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        margin-top: 80px;
+        margin-right: 120px;
+    }
+#imgcard{
+    width: 260px;
+    height: 400px;
+    position: relative;
+    left: 0;
+    top: 0;
+    
+}
+#imgcard1{
+    width: 140px;
+    height: 10px;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    
+}
+
+#imgcard2{
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    top: 0;
+    left: 200px;
+
+}
+#imgcard3{
+
+    position: absolute;
+    top: 155px;
+    left: 50px;
+    right: 50px;
+    width: 150px;
+    height: 120px;
+}
+
+#imgcard4{
+    position: absolute;
+    top: 375px;
+    left: 10px;
+
+}
+.para{
+    position: absolute;
+    letter-spacing: 3px;
+    top: 380px;
+    left: 105px;
+    color: aliceblue;
+    font-size: 7px;
+}
+
+#imgcard5{
+    position: absolute;
+    top: 375px;
+    left: 225px;
+}
+}  
